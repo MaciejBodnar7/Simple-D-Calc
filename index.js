@@ -9,20 +9,20 @@ let sum = document.getElementById('sum-el');
 
 function add() {
   let adding = num1 + num2;
-  sum.textContent += ' ' + adding;
+  sum.textContent = 'Result: ' + adding;
 }
 
 function subtract() {
   let subtracting = num1 - num2;
-  sum.textContent += ' ' + subtracting;
+  sum.textContent = 'Result: ' + subtracting;
 }
 
 function divide() {
   let dividing = num1 / num2;
-  sum.textContent += ' ' + dividing;
+  sum.textContent = 'Result: ' + dividing;
 }
 
 function multiply() {
   let multipling = num1 * num2;
-  sum.textContent += ' ' + multipling;
+  sum.textContent = 'Result: ' + multipling;
 }
